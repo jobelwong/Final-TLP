@@ -1,0 +1,111 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educational Resource Webpage</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans leading-relaxed text-gray-800">
+
+  <!-- Navigation -->
+  <header class="bg-blue-900 text-white p-4 sticky top-0 z-10 shadow-md">
+    <nav class="container mx-auto flex justify-between">
+      <h1 class="text-xl font-bold">Educational Webpage</h1>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#background" class="hover:underline">Background</a></li>
+        <li><a href="#topics" class="hover:underline">Topics & Texts</a></li>
+        <li><a href="#lessons" class="hover:underline">Lesson Plans</a></li>
+        <li><a href="#closing" class="hover:underline">Closing</a></li>
+        <li><a href="#references" class="hover:underline">References</a></li>
+        <li><a href="#appendices" class="hover:underline">Appendices</a></li>
+        <li><a href="#contact" class="hover:underline">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="py-12 bg-gray-100 text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-4">Welcome to Our Educational Resource</h2>
+      <p class="text-lg">Explore lessons, topics, and tools designed to enrich learning experiences.</p>
+    </div>
+  </section>
+
+  <!-- Background Section -->
+  <section id="background" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Background</h2>
+      <p>Provide an overview of the project, its purpose, and the rationale behind its development.</p>
+    </div>
+  </section>
+
+  <!-- Topics and Texts Section -->
+  <section id="topics" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Topics and Texts</h2>
+      <ul class="list-disc ml-6">
+        <li>Topic 1: [Brief description]</li>
+        <li>Topic 2: [Brief description]</li>
+        <li>Text Samples: [Brief overview of texts used]</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Lesson Plans Section -->
+  <section id="lessons" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Lesson Plans</h2>
+      <p>Include lesson outlines, objectives, activities, and assessments.</p>
+    </div>
+  </section>
+
+  <!-- Closing Section -->
+  <section id="closing" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Closing</h2>
+      <p>Summarize key points and future recommendations or reflections.</p>
+    </div>
+  </section>
+
+  <!-- References Section -->
+  <section id="references" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">References</h2>
+      <ul class="list-disc ml-6">
+        <li>Author, A. (Year). Title of Work. Publisher.</li>
+        <li>Author, B. (Year). Another Work. Publisher.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Appendices Section -->
+  <section id="appendices" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Appendices</h2>
+      <p>Attach relevant documents, tables, charts, or extended content.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+      <form class="space-y-4 max-w-xl mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-2 border rounded" />
+        <input type="email" placeholder="Your Email" class="w-full p-2 border rounded" />
+        <textarea placeholder="Your Message" class="w-full p-2 border rounded"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-4">
+    <p>&copy; 2025 Educational Resource Webpage. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
